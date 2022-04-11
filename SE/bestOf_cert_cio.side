@@ -1,0 +1,112 @@
+{
+  "id": "49e9f9ab-6a60-45d6-a5ee-1057ea824148",
+  "version": "2.0",
+  "name": "bestOf_cert_cio",
+  "url": "https://www.cio.com",
+  "tests": [{
+    "id": "cd39154d-6b85-4cce-9266-19af74f5001c",
+    "name": "searchResult_pagination",
+    "commands": [{
+      "id": "f8673262-5bdb-4896-a435-fe77b58740e2",
+      "comment": "",
+      "command": "open",
+      "target": "/search?q=certifications",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "22bee941-1839-4c0a-be4f-72b5edfea2ed",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1514x974",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2ff1c3fd-8804-42a7-99f6-b5352ee3938a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.gsc-cursor-page:nth-child(2)",
+      "targets": [
+        ["css=.gsc-cursor-page:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='___gcse_1']/div/div/div/div[5]/div[2]/div/div/div[2]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[5]/div[2]/div/div/div[2]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4f0a320b-a825-40f3-88c8-a7f3c2e07ed1",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1637.5)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d4431954-888b-4e24-8624-7176fe5be692",
+      "comment": "",
+      "command": "click",
+      "target": "css=.gsc-cursor-page:nth-child(3)",
+      "targets": [
+        ["css=.gsc-cursor-page:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='___gcse_1']/div/div/div/div[5]/div[2]/div/div/div[2]/div/div[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]/div/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9b2d8fcd-6017-4d1a-8596-11200984fb54",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,263.5)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f38c389b-867b-4fe6-bc9e-02a67acee3c9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.gsc-cursor-page:nth-child(4)",
+      "targets": [
+        ["css=.gsc-cursor-page:nth-child(4)", "css:finder"],
+        ["xpath=//div[@id='___gcse_1']/div/div/div/div[5]/div[2]/div/div/div[2]/div/div[4]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d224bc01-bf07-4f34-8f2f-00dea40aadcf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.gsc-cursor-page:nth-child(5)",
+      "targets": [
+        ["css=.gsc-cursor-page:nth-child(5)", "css:finder"],
+        ["xpath=//div[@id='___gcse_1']/div/div/div/div[5]/div[2]/div/div/div[2]/div/div[5]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e6a344fc-55d4-4fa2-99eb-3cf1c0b2f5d1",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,263.5)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d1ebbd92-fd95-4b79-bc8e-988032291b69",
+      "comment": "",
+      "command": "click",
+      "target": "id=page",
+      "targets": [
+        ["id=page", "id"],
+        ["css=#page", "css:finder"],
+        ["xpath=//div[@id='page']", "xpath:attributes"],
+        ["xpath=//div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "8a7a0456-0973-444c-ab68-beac15d4def6",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["cd39154d-6b85-4cce-9266-19af74f5001c"]
+  }],
+  "urls": ["https://www.cio.com/"],
+  "plugins": []
+}
