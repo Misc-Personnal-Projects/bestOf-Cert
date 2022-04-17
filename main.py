@@ -1,8 +1,18 @@
+from article import Article
+
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 from selenium.webdriver.remote.webelement import WebElement
 from selenium.webdriver.support.ui import WebDriverWait
+
+cio_articles: list[Article] = []
+css_selector: str = ""
+results: list[WebElement] = []
+article_url: str = ""
+article_title: str = ""
+page: WebElement
+
 # *********************************************
 # CONFIGURE SELENIUM WITH CHROME DRIVER
 # *********************************************
@@ -13,7 +23,6 @@ chrome_options = Options()
 chrome_options.add_argument('--headless')
 # ChromeDriver.exe has been added to PATH (env variable)
 driver = webdriver.Chrome(options=chrome_options)
-
 
 # *********************************************
 # CONFIGURE URL TO SCRAP
@@ -36,13 +45,6 @@ result_wrapper: WebElement = driver.find_element(By.CSS_SELECTOR, "div.gsc-resul
 nb_pages: int = len(driver.find_elements(By.CSS_SELECTOR, "div.gsc-cursor > div.gsc-cursor-page"))
 idx_page: int = 1
 
-
-cio_articles: dict[str, list[str]] = {}
-css_selector: str = ""
-results: list[WebElement] = []
-article_url: str = ""
-page: WebElement
-
 while idx_page <= nb_pages:
 
     css_selector = ".gsc-cursor-page:nth-child({})".format(idx_page)
@@ -51,23 +53,34 @@ while idx_page <= nb_pages:
     WebDriverWait(driver, 5).until(lambda x: 'gsc-loading-resultsRoot' not in result_wrapper.get_attribute('class'))
 
     results = driver.find_elements(By.CSS_SELECTOR, "a.gs-title")
+    i: int = len(results)
 
     for result in results:
+        print(i)
+        i -= 1
         if len(result.accessible_name) > 1:
             deepDiveDriver = webdriver.Chrome(options=chrome_options)
             article_url = result.get_attribute("href")
+            article_title = result.text
             deepDiveDriver.get(article_url)
-            # TODO: Bug with cert_name.text that is empty although li_cert[0].text is not
+
             li_cert: list[WebElement] = deepDiveDriver.find_elements(By.XPATH, "//div[@class='legacy_content']/ul[1]/*")
             certifications_names: list[str] = [cert_name.text for cert_name in li_cert]
-            cio_articles[result.text] = [article_url, certifications_names]
+
+            current_article = Article(article_title, article_url, certifications_names)
+            cio_articles.append(current_article)
+
             deepDiveDriver.close()
             deepDiveDriver.quit()
 
+    print("{}<={}".format(idx_page, nb_pages))
     idx_page += 1
 
-for k, v in cio_articles.items():
-    print(k + " " + v)
+for article in cio_articles:
+    print(article.name + " " + article.url)
+
+    for certification in article.certifications:
+        print("- " + certification + "\n")
 
 # must close the driver after task finished
 driver.close()
