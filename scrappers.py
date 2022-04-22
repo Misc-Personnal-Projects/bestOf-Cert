@@ -46,20 +46,9 @@ def cio_scrapper() -> list[Article]:
             print(i)
             i -= 1
             if len(result.accessible_name) > 1:
-                article_driver = webdriver.Chrome(options=chrome_options)
-                article_url: str = result.get_attribute("href")
-                article_title: str = result.text
-                article_driver.get(article_url)
-
-                li_cert: list[WebElement] = article_driver.find_elements(By.XPATH,
-                                                                         "//div[@class='legacy_content']/ul[1]/*")
-                certifications_names: list[str] = [cert_name.text for cert_name in li_cert]
-                if len(certifications_names) > 0:
-                    current_article: Article = Article(article_title, article_url, certifications_names)
+                current_article: Article = get_article_details(result.get_attribute("href"), result.text)
+                if current_article is not None:
                     cio_articles.append(current_article)
-
-                article_driver.close()
-                article_driver.quit()
 
         print("{}<={}".format(idx_page, nb_pages))
         idx_page += 1
@@ -69,3 +58,26 @@ def cio_scrapper() -> list[Article]:
     driver.quit()
 
     return cio_articles
+
+
+def get_article_details(url : str, title: str) -> Article:
+    chrome_options = Options()
+    chrome_options.add_argument('--headless')
+    article_driver = webdriver.Chrome(options=chrome_options)
+    article_url: str = url
+    article_title: str = title
+    article_driver.get(article_url)
+
+    li_cert: list[WebElement] = article_driver.find_elements(By.XPATH,
+                                                             "//div[@class='legacy_content']/ul[1]/*")
+    certifications_names: list[str] = [cert_name.text for cert_name in li_cert]
+
+    if len(certifications_names) > 0:
+        current_article = Article(article_title, article_url, certifications_names)
+    else:
+        current_article = None
+
+    article_driver.close()
+    article_driver.quit()
+
+    return current_article
