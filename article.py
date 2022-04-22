@@ -7,3 +7,6 @@ class Article:
         self.name = name
         self.url = url
         self.certifications = certifications
+
+    def to_dict(self) -> dict:
+        return {"name": self.name, "url": self.url, "certifications": self.certifications}

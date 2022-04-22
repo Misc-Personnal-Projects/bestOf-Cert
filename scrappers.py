@@ -7,7 +7,7 @@ from selenium.webdriver.remote.webelement import WebElement
 from selenium.webdriver.support.ui import WebDriverWait
 
 
-def cio_scrapper() -> list[Article]:
+def cio_scrapper() -> list[dict]:
     cio_articles: list[Article] = []
 
     # *********************************************
@@ -26,7 +26,7 @@ def cio_scrapper() -> list[Article]:
 
     # Get Pages Number to configure the loop
     result_wrapper: WebElement = driver.find_element(By.CSS_SELECTOR, "div.gsc-results.gsc-webResult")
-    nb_pages: int = len(driver.find_elements(By.CSS_SELECTOR, "div.gsc-cursor > div.gsc-cursor-page"))
+    nb_pages: int = len(driver.find_elements(By.CSS_SELECTOR, "div.gsc-cursor > div.gsc-cursor-page"))-8
     idx_page: int = 1
 
     while idx_page <= nb_pages:
@@ -57,7 +57,7 @@ def cio_scrapper() -> list[Article]:
     driver.close()
     driver.quit()
 
-    return cio_articles
+    return [article.to_dict() for article in cio_articles]
 
 
 def get_article_details(url : str, title: str) -> Article:
