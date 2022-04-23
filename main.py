@@ -1,12 +1,22 @@
-from scrappers import cio_scrapper
-from article import Article
+import scrappers as s
 import json
 
 def main():
-    cio_articles: list[dict[str, any]] = cio_scrapper()
+    print("="*10)
+    print("CIO scrapping begin...")
+    cio_articles: list[dict[str, any]] = s.cio_scrapper()
+    print("CIO scrapping end")
+
+    print("=" * 10)
+    print("Indeed scrapping begin...")
+    indeed_articles: list[dict[str, any]] = s.indeed_scrapper()
+    print("Indeed scrapping end")
 
     f = open("./output/articles.json", "w+")
-    json.dump({"cio",  cio_articles}, f)
+    json.dump({
+        "cio":  cio_articles,
+        "indeed": indeed_articles
+    }, f)
     f.close()
 
 
