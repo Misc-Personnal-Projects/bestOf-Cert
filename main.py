@@ -1,6 +1,10 @@
 import scrappers as s
 import json
 
+#TODO Create function to generate json
+#TODO Add query words to scrapper params
+#TODO Create a logs
+
 def main():
     print("="*10)
     print("CIO scrapping begin...")
