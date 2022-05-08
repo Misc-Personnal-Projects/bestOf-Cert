@@ -1,0 +1,776 @@
+{
+    "cio": [
+        {
+            "name": "Why Project Management Certifications Matter",
+            "url": "https://www.cio.com/article/280659/project-management-why-project-management-certifications-matter.html",
+            "certifications": [
+                "Why Employers Seek Certified Project Managers",
+                "The Impact of Project Management Certifications on Project Success",
+                "The Strengths and Weaknesses of Project Management Certifications",
+                "The Benefits of Certification for IT Project Managers"
+            ]
+        },
+        {
+            "name": "17 IT management certifications for IT leaders",
+            "url": "https://www.cio.com/article/221721/10-it-management-certifications-for-it-leaders.html",
+            "certifications": [
+                "Top 17 IT management certifications",
+                "AMA Certified Professional in Management",
+                "Certified Associate in Project Management (CAPM)",
+                "Certified in Governance of Enterprise IT (CGEIT)",
+                "Certified in Risk and Information Systems Control (CRISC)",
+                "Certified Information Security Manager (CISM)",
+                "Certified Information Systems Security Professional (CISSP)",
+                "Certified Information Technology Manager (CITM)",
+                "Certified ScrumMaster (CSM)",
+                "COBIT 5 Foundation",
+                "CompTIA Network+",
+                "CompTIA Project+",
+                "Information Technology Infrastructure Library (ITIL)",
+                "Information Technology Management and Leadership Professional (ITMLP)",
+                "PMI Agile Certified Practitioner (PMI-ACP)",
+                "Project Management Professional (PMP)",
+                "Six Sigma",
+                "TOGAF 9"
+            ]
+        },
+        {
+            "name": "8 agile certifications to take your career to the next level",
+            "url": "https://www.cio.com/article/230223/7-agile-certifications-to-take-your-career-to-the-next-level.html",
+            "certifications": [
+                "Top 8 agile certifications",
+                "PMI-ACP",
+                "APMG International",
+                "Strategyex Certificate (Associate or Master\u2019s) in Agile",
+                "International Consortium for Agile (ICAgile)",
+                "Agile Certification Institute",
+                "Scaled Agile Academy",
+                "Scrum Alliance",
+                "Certified Agile Project Manager (IAPM)"
+            ]
+        },
+        {
+            "name": "7 change management certifications to boost your IT career",
+            "url": "https://www.cio.com/article/221699/7-change-management-certifications-to-boost-your-it-career.html",
+            "certifications": [
+                "Top 7 change management certifications",
+                "Certified Change Management Professional (CCMP)",
+                "Change Management Specialist (CMS)",
+                "Certified Problem and Change Manager (CPCM)",
+                "Change Management Certificate Program from the Association for Talent Development",
+                "Prosci Change Management Certification",
+                "APGM Organizational Change Management Foundation",
+                "AIM Change Management Certification"
+            ]
+        },
+        {
+            "name": "5 practical project management certifications",
+            "url": "https://www.cio.com/article/242378/5-practical-project-management-certifications.html",
+            "certifications": [
+                "PMP (Project Management Professional)",
+                "CAPM (Certified Associate Project Manager)",
+                "CPM (Certified Project Manager)",
+                "MPM (Master Project Manager)",
+                "CompTIA Project+"
+            ]
+        },
+        {
+            "name": "PMP certification: How to ace the Project Management Professional ...",
+            "url": "https://www.cio.com/article/228204/pmp-project-management-certification-guide.html",
+            "certifications": [
+                "PMP certification",
+                "PMP certification cost",
+                "PMP certification requirements",
+                "How to get PMP certification",
+                "PMP certification exam",
+                "PMP salaries",
+                "PMP certification training",
+                "PMP certification courses",
+                "How you can prepare for the exam",
+                "PMP exam preparation resources",
+                "Tips for acing the PMP exam on the first try",
+                "Maintaining your PMP credentials",
+                "Documenting your PDUs"
+            ]
+        },
+        {
+            "name": "The top 8 supply chain management certifications",
+            "url": "https://www.cio.com/article/222035/the-top-8-supply-chain-management-certifications.html",
+            "certifications": [
+                "Top 8 SCM certifications",
+                "APICS Certified Supply Chain Professional certification (CSCP)",
+                "APICS Certified in Production and Inventory Management (CPIM)",
+                "APICS Supply Chain Operations Reference (SCOR-P) Endorsement",
+                "ISM Certified Professional in Supply Management (CPSM)",
+                "ISM Certified Professional in Supplier Diversity (CPSD)",
+                "SCPro Council of Supply Chain Management Professionals (CSCMP)",
+                "SOLE Certified Professional Logistician (CPL)",
+                "NCMA Certified Professional Contract Manager (CPCM)"
+            ]
+        },
+        {
+            "name": "10 master data management certifications that will pay off",
+            "url": "https://www.cio.com/article/222641/master-data-management-certifications.html",
+            "certifications": [
+                "Top 10 master data management certifications",
+                "The Art of Service Master Data Management Certification",
+                "DAMA Certified Data Management Professional (CDMP)",
+                "Data Governance and Stewardship Professional (DGSP)",
+                "edX Enterprise Data Management",
+                "eLearningCurve Certified Information Management Professional (CIMP) Master Data Management",
+                "eLearningCurve CIMP Ex Master Data Management",
+                "Informatica Master Data Management Administrator Certified Professional",
+                "Informatica Master Data Management Developer Certified Professional",
+                "Mastering Data Management and Technology",
+                "SAP Certified Application Associate \u2013 SAP Master Data Governance"
+            ]
+        },
+        {
+            "name": "CAPM certification: Cost, salary, training, and more",
+            "url": "https://www.cio.com/article/222501/capm-certification-guide-certified-associate-project-manager-exam-explained.html",
+            "certifications": [
+                "What is CAPM certification?",
+                "CAPM vs. PMP",
+                "CAPM prerequisites",
+                "CAPM cost",
+                "CAPM exam: What to expect",
+                "Preparing for the CAPM exam",
+                "CAPM training courses",
+                "Is the CAPM worth it?",
+                "CAPM jobs",
+                "CAPM salary",
+                "Additional resources to help you prepare"
+            ]
+        },
+        {
+            "name": "15 best entry-level IT certifications to launch your career",
+            "url": "https://www.cio.com/article/222343/10-best-entry-level-it-certifications-to-launch-your-career.html",
+            "certifications": [
+                "15 entry-level IT certs to jump-start your career",
+                "Apple Certified Support Professional (ACSP)",
+                "AWS Certified Cloud Practitioner",
+                "Certified ScrumMaster (CSM)",
+                "Cisco Certified Network Associate (CCNA)",
+                "Cisco Certified Technician (CCT)",
+                "Comp TIA A+",
+                "CompTIA IT Fundamentals+ (ITF+)",
+                "CompTIA Network+",
+                "CompTIA Security+",
+                "ITIL 4 Foundation",
+                "Linux Essentials Professional Development Certification (PDC)",
+                "Microsoft 365 Fundamentals",
+                "Microsoft Technology Associate (MTA)",
+                "PMI Certified Associate in Project Management (CAPM)",
+                "Systems Security Certified Practitioner"
+            ]
+        },
+        {
+            "name": "10 business analyst certifications to advance your analytics career",
+            "url": "https://www.cio.com/article/228834/6-business-analyst-certifications-to-advance-your-analytics-career.html",
+            "certifications": [
+                "Top 10 business analyst certifications",
+                "Certified Analytics Professional (CAP)",
+                "IIBA Entry Certificate in Business Analysis (ECBA)",
+                "IIBA Certification of Competency in Business Analysis (CCBA)",
+                "IIBA Certified Business Analysis Professional (CBAP)",
+                "IIBA Agile Analysis Certification (AAC)",
+                "IIBA Certification in Business Data Analytics (CBDA)",
+                "IQBBA Certified Foundation Level Business Analyst (CFLBA)",
+                "IREB Certified Professional for Requirements Engineering (CPRE)",
+                "PMI Professional in Business Analysis (PBA) Certification",
+                "SimpliLearn Business Analyst Masters Program"
+            ]
+        },
+        {
+            "name": "ITIL certification guide: Costs, requirements, levels and paths | CIO",
+            "url": "https://www.cio.com/article/286245/what-itil-certifications-mean-to-your-it-management-practices.html",
+            "certifications": [
+                "ITIL 4 certification paths",
+                "ITIL Foundation",
+                "ITIL Managing Professional (MP)",
+                "ITIL Strategic Leader (SL)",
+                "ITIL Master",
+                "ITIL 3 certification compatibility",
+                "ITIL certification training",
+                "ITIL certification salary",
+                "ITIL certification cost",
+                "ITIL resources"
+            ]
+        },
+        {
+            "name": "8 business intelligence certifications to advance your BI career",
+            "url": "https://www.cio.com/article/219932/11-business-intelligence-certifications-to-advance-your-bi-career.html",
+            "certifications": [
+                "Top 8 business intelligence certifications",
+                "Certified Business Intelligence Professional (CBIP)",
+                "IBM Certified Designer: IBM Cognos Analytics Author V11",
+                "Microsoft Certified: Data Analyst Associate",
+                "QlikView Business Analyst",
+                "SAP Certified Application Associate: SAP BusinessObjects Business Intelligence Platform 4.2",
+                "SAS Certified Specialist: Visual Business Analytics 7.5/8.3",
+                "Tableau Desktop Certified Professional",
+                "Tableau Server Certified Professional"
+            ]
+        },
+        {
+            "name": "SAFe certification: Launch your Scaled Agile Framework career",
+            "url": "https://www.cio.com/article/189035/safe-certification-guide.html",
+            "certifications": [
+                "What is SAFe certification?",
+                "SAFe certification training",
+                "SAFe certifications",
+                "SAFe Agile Product Manager",
+                "SAFe Agilist",
+                "SAFe DevOps Practitioner",
+                "SAFe Government Practitioner",
+                "SAFe Product Owner / Product Manager",
+                "SAFe Agile Software Engineer",
+                "SAFe Architect",
+                "SAFe Lean Portfolio Manager",
+                "SAFe Practitioner",
+                "SAFe Scrum Master",
+                "SAFe Advanced Scrum Master",
+                "SAFe Program Consultant",
+                "SAFe Release Train Engineer"
+            ]
+        },
+        {
+            "name": "The top 11 big data and data analytics certifications | CIO",
+            "url": "https://www.cio.com/article/230388/big-data-certifications-that-will-pay-off.html",
+            "certifications": [
+                "The top 11 data analytics and big data certifications",
+                "Associate Certified Analytics Professional",
+                "Certification of Professional Achievement in Data Sciences",
+                "Certified Analytics Professional",
+                "Cloudera Data Platform Generalist Certification",
+                "EMC Proven Professional Data Scientist Associate (EMCDSA)",
+                "IBM Data Science Professional Certificate",
+                "Microsoft Certified Azure Data Scientist Associate",
+                "Microsoft Certified: Data Analyst Associate",
+                "Open Certified Data Scientist",
+                "SAS Certified Advanced Analytics Professional Using SAS 9",
+                "SAS Certified Data Scientist"
+            ]
+        },
+        {
+            "name": "The most valuable cloud computing certifications today",
+            "url": "https://www.cio.com/article/230336/the-most-valuable-cloud-computing-certifications-today.html",
+            "certifications": [
+                "10 most valuable cloud certifications",
+                "Google Certified Professional Cloud Architect",
+                "Google Certified Professional Data Engineer",
+                "AWS Certified Solutions Architect \u2013 Associate",
+                "AWS Certified SysOps Administrator",
+                "AWS Certified Developer \u2013 Associate",
+                "Microsoft Certified: Microsoft Azure Fundamentals",
+                "Microsoft Certified Azure Administrator Associate",
+                "Microsoft Certified Azure Solutions Architect Expert",
+                "Certified Cloud Security Professional (CSSP)",
+                "CompTIA Cloud+"
+            ]
+        },
+        {
+            "name": "20 IT certifications paying the highest premiums today | CIO",
+            "url": "https://www.cio.com/article/219809/10-it-certifications-paying-the-highest-premiums-today.html",
+            "certifications": [
+                "SAS Certified Data Scientist",
+                "Information System Security Engineering Professional (ISSEP/CISSP)",
+                "GIAC Web Application Penetration Tester (GWAPT)",
+                "Google Certified Professional Cloud Architect",
+                "Okta Certified Professional",
+                "Oracle Database Administration Certified Professional (DBA-OCP)",
+                "Microsoft Certified Azure Solutions Architect Expert",
+                "Oracle Certified Master \u2013 DBA (OCM)",
+                "Pega Certified Robotics System Architect",
+                "Pega Certified Senior Systems Architect (PCSSA)",
+                "Certified Associate in Project Management (CAPM)",
+                "Teradata Certified Database Administrator",
+                "Teradata Certified Enterprise Architect",
+                "Cisco Certified Design Expert (CCDE)",
+                "Certified Ethical Hacker (CEH)",
+                "Teradata Vantage Certified Master",
+                "The Open Group Architecture Framework (TOGAF) certification",
+                "Six Sigma Master Black Belt",
+                "Certified in the Governance of Enterprise IT (CGEIT)",
+                "GIAC Exploit Researcher and Advanced Penetration Tester (GXPN)",
+                "Information Systems Security Architecture Professional (CISSP-ISSAP)"
+            ]
+        },
+        {
+            "name": "Salesforce certification guide: Your path to a lucrative career",
+            "url": "https://www.cio.com/article/234728/7-salesforce-certifications-that-will-advance-your-career.html",
+            "certifications": [
+                "Benefits of Salesforce certification",
+                "Salesforce certification overview",
+                "Salesforce administrator certifications",
+                "Salesforce Administrator",
+                "Salesforce Advanced Administrator",
+                "Salesforce Certified CPQ Specialist",
+                "Salesforce Certified Platform Application Builder",
+                "Salesforce developer certifications",
+                "Salesforce Certified Platform Application Builder",
+                "Salesforce Certified Platform Developer I",
+                "Salesforce Certified Platform Developer II",
+                "Salesforce Certified B2C Commerce Developer",
+                "Salesforce Certified Marketing Cloud Developer",
+                "Salesforce architect certifications",
+                "Salesforce Certified Application Architect",
+                "Salesforce Certified System Architect  ",
+                "Salesforce Certified Technical Architect",
+                "Salesforce Certified Heroku Architecture Designer",
+                "Salesforce consultant certifications",
+                "Other Salesforce certifications",
+                "Trailhead"
+            ]
+        },
+        {
+            "name": "Top HRIS certifications to boost your career",
+            "url": "https://www.cio.com/article/220148/top-hris-certifications-to-boost-your-career.html",
+            "certifications": [
+                "HRIP certification",
+                "HRCI certifications",
+                "aPHR",
+                "aPHRi",
+                "PHR",
+                "PHRca",
+                "PHRi",
+                "SPHR",
+                "SPHRi",
+                "GPHR",
+                "SHRM certification"
+            ]
+        },
+        {
+            "name": "12 certifications for enterprise architects",
+            "url": "https://www.cio.com/article/222483/12-certifications-for-enterprise-architects.html",
+            "certifications": [
+                "Top 12 enterprise architecture certifications",
+                "AWS Certified Solution Architect",
+                "Axelos ITIL Master certification",
+                "CISSP Information Systems Security Architecture Professional (CISSIP-ISSAP)",
+                "Dell EMC Proven Professional Cloud Architect training and certification",
+                "EC Council Certified Network Defense Architect (CNDA)",
+                "Google Professional Cloud Architect",
+                "Professional Cloud Solutions Architect Certification",
+                "Red Hat Certified Architect",
+                "Salesforce Certified Technical Architect (CTA)",
+                "The Open Group TOGAF 9 Certification",
+                "The Open Group Certified Architect (Open CA)",
+                "Virtualization Council Master Infrastructure Architect certification"
+            ]
+        },
+        {
+            "name": "What is that agile certification really worth?",
+            "url": "https://www.cio.com/article/240280/do-agile-certifications-mean-anything.html",
+            "certifications": [
+                "Certification doesn\u2019t guarantee success",
+                "Agile is difficult to benchmark",
+                "Be SAFe",
+                "Related articles"
+            ]
+        },
+        {
+            "name": "IT certification mistakes to avoid",
+            "url": "https://www.cio.com/article/189429/it-certification-mistakes-to-avoid.html",
+            "certifications": [
+                "1. Beginning a certification journey without a goal in mind",
+                "2. Biting off more than you can chew",
+                "3. Failing to find the right training resources",
+                "4. Relying on outdated materials",
+                "5. Paying when you don\u2019t have to",
+                "6. Not getting specific",
+                "Employers can make certification mistakes, too"
+            ]
+        },
+        {
+            "name": "CSM certification: What you need to know",
+            "url": "https://www.cio.com/article/222489/csm-certification-guide-certified-scrummaster-exam-explained.html",
+            "certifications": [
+                "CSM certification",
+                "CSM requirements",
+                "CSM cost",
+                "CSM exam",
+                "CSM value",
+                "CSM renewal",
+                "CSM training",
+                "Sample CSM exam questions",
+                "CSM salary",
+                "CSM jobs"
+            ]
+        },
+        {
+            "name": "The 15 top-paying certifications of 2021 | CIO",
+            "url": "https://www.cio.com/article/286762/careers-staffing-12-it-certifications-that-deliver-career-advancement.html",
+            "certifications": [
+                "The 15 most valuable certifications for 2021",
+                "Google Certified Professional Data Engineer",
+                "Google Cloud Professional (GCP) Cloud Architect",
+                "AWS Certified Solutions Architect Associate",
+                "Certified in Risk and Information Systems Control (CRISC)",
+                "Certified Information Systems Security Professional (CISSP)",
+                "Certified Information Security Manager (CISM)",
+                "Project Management Professional (PMP)",
+                "Nutanix Certified Professional \u2013 Multi Cloud Infrastructure (NCP-MCI)",
+                "Certified Information Systems Auditor (CISA)",
+                "VMware Certified Professional \u2013 Data Center Virtualization 2020 (VCP-DVC)",
+                "Microsoft Certified Solutions Expert (MCSE) Windows Server",
+                "Microsoft Certified: Azure Administrator Associate",
+                "Cisco Certified Network Professional (CCNP) Enterprise",
+                "Citrix Certified Associate \u2013 Virtualization (CCA-V)",
+                "CompTIA Security+"
+            ]
+        },
+        {
+            "name": "Why agile skills are more valuable than certifications",
+            "url": "https://www.cio.com/article/244243/why-agile-skills-are-more-valuable-than-certifications.html",
+            "certifications": [
+                "Adopting an agile mindset",
+                "Without agility, expect business failures",
+                "Hire Agile"
+            ]
+        },
+        {
+            "name": "CMMI certifications: A complete guide",
+            "url": "https://www.cio.com/article/222324/cmmi-certifications-guide.html",
+            "certifications": [
+                "CMMI Associate",
+                "CMMI Professional",
+                "Certified CMMI Lead Appraiser",
+                "Certified CMMI Instructor",
+                "CMMI training courses",
+                "Advancing Enterprise Data Management Capabilities",
+                "Advancing Organizational Capability: Achieving High Maturity",
+                "Building Enterprise Data Management Capabilities",
+                "CMMI Instructor Training",
+                "Enterprise Data Management Expert Training",
+                "Lead Appraiser Training",
+                "Foundations of Capability",
+                "Introduction to the People CMM",
+                "Building Development Excellence",
+                "High Maturity Concepts",
+                "Advancing Organizational Capability: Applying CMMI",
+                "CMMI v2.0 Upgrade Training for Lead Appraisers and Instructors",
+                "CMMI v2.0 Upgrade Training",
+                "Building Service Excellence",
+                "Building Supplier Management Excellence"
+            ]
+        },
+        {
+            "name": "Top 8 data engineer and data architect certifications",
+            "url": "https://www.cio.com/article/220084/top-data-engineer-and-data-architect-certifications.html",
+            "certifications": [
+                "The top 8 data engineer and data architect certifications",
+                "Amazon Web Services (AWS) Certified Data Analytics \u2013 Specialty",
+                "Cloudera Data Platform Generalist Certification",
+                "Data Science Council of America (DASCA) Associate Big Data Engineer",
+                "Data Science Council of America (DASCA) Senior Big Data Engineer",
+                "Google Professional Data Engineer",
+                "IBM Certified Solution Architect \u2013 Cloud Pak for Data v4.x",
+                "IBM Certified Solution Architect \u2013 Data Warehouse V1",
+                "SAS Certified Big Data Professional"
+            ]
+        },
+        {
+            "name": "10 hottest IT certifications today",
+            "url": "https://www.cio.com/article/301512/10-hottest-it-certifications-today.html",
+            "certifications": [
+                "1. Certified Information Systems Security Professional (CISSP)",
+                "2. AWS Certified Solutions Architect Associate",
+                "3. AWS Certified Cloud Practitioner",
+                "4. Certified Information Security Manager (CISM)",
+                "5. Google Professional Cloud Architect",
+                "6. AWS Certified Solutions Architect Professional",
+                "7. Microsoft Certified: Azure Fundamentals",
+                "8. Certified in Risk and Information Systems Control (CRISC)",
+                "9. Microsoft Certified: Azure Administrator Associate",
+                "10. Microsoft Certified: Azure Solutions Architect Expert"
+            ]
+        },
+        {
+            "name": "What is CGEIT? A certification for seasoned IT governance ...",
+            "url": "https://www.cio.com/article/222595/what-is-cgeit-a-certification-for-seasoned-it-governance-professionals.html",
+            "certifications": [
+                "What\u2019s on the CGEIT exam?",
+                "CGEIT qualifications",
+                "How to prepare for the exam",
+                "Exam fee",
+                "Maintaining your certification"
+            ]
+        },
+        {
+            "name": "23 IT Certifications That Mean Higher Pay",
+            "url": "https://www.cio.com/article/286725/careers-staffing-23-it-certifications-that-mean-higher-pay.html",
+            "certifications": [
+                "8-13 Percent Premium Added to Your Base Pay",
+                "10-15 Percent Premium Added to Your Base Pay",
+                "12-16 Percent Premium Added to Your Base Pay",
+                "IT Certifications Pay Off",
+                "Resources"
+            ]
+        },
+        {
+            "name": "15 top RPA certifications",
+            "url": "https://www.cio.com/article/222057/15-top-rpa-certifications.html",
+            "certifications": [
+                "Appian",
+                "Automation Anywhere",
+                "Blue Prism",
+                "UiPath",
+                "Microsoft"
+            ]
+        },
+        {
+            "name": "ServiceNow certification guide: Mastering ITSM",
+            "url": "https://www.cio.com/article/222513/servicenow-certification-guide-mastering-itsm.html",
+            "certifications": [
+                "Certified Systems Administrator (CSA)",
+                "Certified Implementation Specialist (CIS)",
+                "Certified Application Developer (CAD)"
+            ]
+        },
+        {
+            "name": "Microsoft 365 certification: Skills and training to advance your career ...",
+            "url": "https://www.cio.com/article/193767/microsoft-365-certification-skills-and-training-to-advance-your-career-in-the-cloud.html",
+            "certifications": [
+                "Microsoft 365 Certified: Fundamentals",
+                "Microsoft 365 Certified: Developer Associate",
+                "Microsoft 365 Certified: Messaging Administrator Associate",
+                "Microsoft 365 Certified: Security Administrator Associate",
+                "Microsoft 365 Certified: Modern Desktop Administrator Associate",
+                "Microsoft 365 Certified: Teams Administrator Associate",
+                "Microsoft 365 Certified: Enterprise Administrator Expert"
+            ]
+        },
+        {
+            "name": "AWS certifications: Validate your skills with Amazon's cloud",
+            "url": "https://www.cio.com/article/193566/aws-certifications-validate-your-skills-with-amazons-cloud.html",
+            "certifications": [
+                "Foundational-level AWS Certification",
+                "Associate-level AWS certifications",
+                "Solutions Architect \u2013 Associate",
+                "Developer \u2013 Associate",
+                "SysOps Administrator \u2013 Associate",
+                "Professional-level AWS certifications",
+                "Solutions Architect \u2013 Professional",
+                "DevOps Engineer \u2013 Professional",
+                "Specialty AWS certifications"
+            ]
+        },
+        {
+            "name": "CISA certification guide: Certified Information Systems Auditor ...",
+            "url": "https://www.cio.com/article/219946/cisa-certification-guide-certified-information-systems-auditor-explained.html",
+            "certifications": [
+                "CISA certification requirements",
+                "CISA exam",
+                "CISA training",
+                "CISA exam and maintenance fees",
+                "CISA salary"
+            ]
+        },
+        {
+            "name": "MCSA certification guide: How to become a Microsoft Certified ...",
+            "url": "https://www.cio.com/article/220006/mcsa-certification-guide-how-to-become-a-microsoft-certified-solutions-associate.html",
+            "certifications": [
+                "What is an MCSA certification?",
+                "MCSA certifications",
+                "MCSA: BI reporting",
+                "MCSA: Microsoft Dynamics 365 for operations",
+                "MCSA: SQL 2016 BI development",
+                "MCSA: SQL 2016 database administration",
+                "MCSA: SQL 2016 database development",
+                "MCSA: SQL Server 2012/2014",
+                "MCSA: Universal Windows platform",
+                "MCSA: Web applications",
+                "MCSA: Windows Server 2012",
+                "MCSA: Windows Server 2016",
+                "MCSA certification costs",
+                "MCSA training"
+            ]
+        },
+        {
+            "name": "IT certifications report card: What are they worth now? Which ones ...",
+            "url": "https://www.cio.com/article/236110/it-certifications-report-card-what-are-they-worth-now-which-ones-pay-off-the-most.html",
+            "certifications": [
+                "So much power, so small a device",
+                "Stop, cyberthief!"
+            ]
+        },
+        {
+            "name": "Scrum master certification: Top 13 certs for agile pros",
+            "url": "https://www.cio.com/article/220016/scrum-master-certification-top-9-certs-for-agile-pros.html",
+            "certifications": [
+                "Top 13 Scrum master certifications",
+                "Advanced Certified ScrumMaster (A-CSM)",
+                "Certified ScrumMaster (CSM)",
+                "Certified Scrum Professional Product Owner (CSP-PO)",
+                "Certified Scrum Professional ScrumMaster (CSP-SM)",
+                "Certified Scrum Developer (CSD)",
+                "Disciplined Agile Scrum Master (DASM)",
+                "PMI Agile Certified Practitioner (PMI-ACP)",
+                "Professional Scrum Developer",
+                "Professional Scrum Master (PSM)",
+                "Professional Scrum Product Owner Level 1 (PSPO-1)",
+                "SAFe Advanced Scrum Master",
+                "SAFe Scrum Master (SSM)",
+                "Scrum@Scale Practitioner"
+            ]
+        },
+        {
+            "name": "Cash pay premiums for tech certifications in 2018: Highest paying ...",
+            "url": "https://www.cio.com/article/221821/cash-pay-premiums-for-tech-certifications-in-2018-highest-paying-fastest-growing-at-3-188-employers.html",
+            "certifications": [
+                "It\u2019s about to get worse",
+                "Two thorny issues to tackle",
+                "Highest paying tech certifications",
+                "Fastest growing tech certifications",
+                "Application Development/Programming Languages",
+                "Architecture, Project Management and Process certifications",
+                "Info/Cyber Security certifications  ",
+                "Networking and Communications certifications",
+                "Systems Administration certifications"
+            ]
+        },
+        {
+            "name": "When it comes to IT certifications, trust but verify",
+            "url": "https://www.cio.com/article/236103/when-it-comes-to-it-certifications-trust-but-verify.html",
+            "certifications": [
+                "Certification inflation?",
+                "Pony up for certifications"
+            ]
+        },
+        {
+            "name": "Microsoft new certifications: What you need to know | CIO",
+            "url": "https://www.cio.com/article/189029/making-sense-of-microsofts-new-certifications-scheme.html",
+            "certifications": [
+                "Microsoft certification roles",
+                "What replaces the MCSA, MCSE, or MTA?",
+                "Microsoft Fundamentals certifications",
+                "Microsoft Associate certifications",
+                "Microsoft Expert certifications",
+                "Microsoft certification renewals"
+            ]
+        }
+    ],
+    "indeed": [
+        {
+            "name": "Types of Project Management Certifications",
+            "url": "https://www.indeed.com/career-advice/finding-a-job/types-of-project-management-certifications",
+            "certifications": [
+                "Six Sigma certifications",
+                "Global Association of Quality Management (GAQM) certifications",
+                "International Association of Project Managers (IAPM) certifications",
+                "Scrum Alliance certifications",
+                "Project Management Institute (PMI) certifications",
+                "1. Determine the certification you need",
+                "2. Gather the requirements needed for the certification",
+                "3. Prepare for the certification exam",
+                "4. Renew your certification",
+                "1. Project coordinator",
+                "2. Program manager",
+                "3. Project manager",
+                "4. Project director",
+                "5. Product owner",
+                "6. Scrum master"
+            ]
+        },
+        {
+            "name": "The Top 9 Project Management Certifications",
+            "url": "https://www.indeed.com/career-advice/career-development/pm-certification",
+            "certifications": [
+                "1. Certified Associate in Project Management (CAPM)",
+                "2. Project Management Professional (PMP)",
+                "3. Agile Certified Practitioner (PMI-ACP)",
+                "4. MPM: Master Project Manager",
+                "5. Certified ScrumMaster (CSM)",
+                "6. Certified Project Manager by IAPM",
+                "7. CompTIA Project+",
+                "8. Program Management Professional (PgMP)",
+                "9. Certified Project Director by the GAQM"
+            ]
+        },
+        {
+            "name": "Guide To Project Manager Certifications (with Top Certifications)",
+            "url": "https://www.indeed.com/career-advice/career-development/project-manager-certifications",
+            "certifications": [
+                "Agile Certified Practitioner",
+                "Project Management Professional",
+                "Certified Associate in Project Management",
+                "Certified Scrum Master",
+                "Master Project Manager",
+                "Certified Project Manager",
+                "CompTIA Project+"
+            ]
+        },
+        {
+            "name": "Defining the PMP Certification and How to Achieve It",
+            "url": "https://www.indeed.com/career-advice/career-development/pmp-certifications",
+            "certifications": [
+                "Meet eligibility requirements",
+                "Describe project management and education experience",
+                "Submit your application within 90 days of starting",
+                "Receive application approval from PMI",
+                "Pay application fee of $405 to $555",
+                "Schedule and pass your PMP exam",
+                "Tips for success"
+            ]
+        },
+        {
+            "name": "8 Agile Certifications to Advance Your Career in IT Project Management",
+            "url": "https://www.indeed.com/career-advice/career-development/agile-certifications",
+            "certifications": [
+                "1. PMI Agile Certified Practitioner (PMI-ACP)",
+                "2. Certified Agile Project Manager",
+                "3. Agile Scrum Foundation",
+                "4. Agile Scrum Master (ASM)",
+                "5. Certified Scrum Master",
+                "6. Professional Scrum Master",
+                "7. SAFe Agilist",
+                "8. ICAgile Certified Professional"
+            ]
+        },
+        {
+            "name": "Six Sigma vs. PMP Certification: What's the Difference?",
+            "url": "https://www.indeed.com/career-advice/career-development/six-sigma-vs-pmp",
+            "certifications": [
+                "Six Sigma certification",
+                "PMP certification",
+                "Certification focus",
+                "Project and process management",
+                "Industry applications",
+                "Availability and requirements",
+                "Project management focus",
+                "Levels of expertise",
+                "International recognition",
+                "Advantages"
+            ]
+        },
+        {
+            "name": "PMP vs. PMI-ACP Certification: What's the Difference?",
+            "url": "https://www.indeed.com/career-advice/career-development/pmp-vs-pmi",
+            "certifications": [
+                "Approach",
+                "Qualifications",
+                "Preparation",
+                "Job roles",
+                "Exam"
+            ]
+        },
+        {
+            "name": "Top 11 Most In-Demand Certifications in Management",
+            "url": "https://www.indeed.com/career-advice/finding-a-job/certifications-in-management",
+            "certifications": [
+                "1. Project Management Professional Credential (PgMP)",
+                "2. Certified ScrumMaster (CSM)",
+                "3. CompTIA Project+ Certification",
+                "4. Certified Associate in Project Management (CAPM)",
+                "5. PRINCE2 Foundation and Practitioner Certifications",
+                "5. Professional in Project Management (PPM)",
+                "7. Certified Project Director (CPD)",
+                "8. Project Management in IT Security (PMIT)",
+                "9. PMI Agile Certified Practitioner (PMI-ACP)",
+                "10. Six Sigma Certifications",
+                "11. Information Technology Infrastructure Library (ITIL) Certification"
+            ]
+        }
+    ]
+}

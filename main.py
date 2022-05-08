@@ -4,7 +4,7 @@ import json
 def main():
     print("="*10)
     print("CIO scrapping begin...")
-    cio_articles: list[dict[str, any]] = s.cio_scrapper()
+    #cio_articles: list[dict[str, any]] = s.cio_scrapper()
     print("CIO scrapping end")
 
     print("=" * 10)
@@ -12,9 +12,9 @@ def main():
     indeed_articles: list[dict[str, any]] = s.indeed_scrapper()
     print("Indeed scrapping end")
 
-    f = open("./output/articles.json", "w+")
+    f = open("./output/articles-pm-cert.json", "w+")
     json.dump({
-        "cio":  cio_articles,
+        #"cio":  cio_articles,
         "indeed": indeed_articles
     }, f)
     f.close()

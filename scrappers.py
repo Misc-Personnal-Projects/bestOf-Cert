@@ -6,6 +6,8 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.remote.webelement import WebElement
 from selenium.webdriver.support.ui import WebDriverWait
 
+import re
+
 
 # *********************************************
 # CIO MAGAZINE
@@ -24,7 +26,7 @@ def cio_scrapper() -> list[dict]:
     # ChromeDriver.exe has been added to PATH (env variable)
     driver = webdriver.Chrome(options=chrome_options)
 
-    url: str = "https://www.cio.com/search?q=certifications"
+    url: str = "https://www.cio.com/search?q=project+management+certifications"
     driver.get(url)
 
     # Get Pages Number to configure the loop
@@ -45,11 +47,16 @@ def cio_scrapper() -> list[dict]:
         nb_articles: int = len(results)
 
         for idx, result in enumerate(results):
-            if len(result.accessible_name) > 1:
+            if len(result.accessible_name) > 1 and re.search("certification.", result.accessible_name.lower()):
                 current_article: Article = get_cio_article_details(result.get_attribute("href"), result.text)
                 if current_article is not None:
                     cio_articles.append(current_article)
-                    print("-- Article {}/{} scrapped".format(idx+1, nb_articles))
+                    print("-- Article {}/{} scrapped".format(idx + 1, nb_articles))
+                else:
+                    print("-- Article {}/{} not scrapped - Issue when retrieving article data".format(idx + 1, nb_articles))
+
+            else:
+                print("-- Article {}/{} not scrapped - Wrong Name".format(idx + 1, nb_articles))
 
         print("Page {}/{} scrapped".format(i, nb_pages))
 
@@ -101,7 +108,7 @@ def indeed_scrapper() -> list[dict]:
     # ChromeDriver.exe has been added to PATH (env variable)
     driver = webdriver.Chrome(options=chrome_options)
 
-    url: str = "https://www.indeed.com/career-advice/search?q=it+certifications"
+    url: str = "https://www.indeed.com/career-advice/search?q=project+management+certifications"
     driver.get(url)
 
     xpath_selector: str = "//h2[@class='card-heading css-t1a24f e1tiznh50']/a"
@@ -109,13 +116,15 @@ def indeed_scrapper() -> list[dict]:
     nb_articles: int = len(results)
 
     for idx, result in enumerate(results):
-
-        if len(result.accessible_name) > 1:
+        if len(result.accessible_name) > 1 and re.search("certification.", result.accessible_name.lower()):
             current_article: Article = get_indeed_article_details(result.get_attribute("href"), result.text)
             if current_article is not None:
                 indeed_articles.append(current_article)
-                print(""
-                      "Article {}/{} scrapped".format(idx, nb_articles))
+                print("Article {}/{} scrapped".format(idx + 1, nb_articles))
+            else:
+                print("-- Article {}/{} not scrapped - Issue when retrieving article data".format(idx + 1, nb_articles))
+        else:
+            print("-- Article {}/{} not scrapped - Wrong Name".format(idx + 1, nb_articles))
 
     # must close the driver after task finished
     driver.close()
